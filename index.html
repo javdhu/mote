@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mote – Privacy and Support</title>
+<style>
+  :root { --bg:#f2f2f1; --fg:#141414; --muted:#5d5d5b; --ember:#ff6129; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0b0b0c; --fg:#ececea; --muted:#9a9a97; } }
+  body { background:var(--bg); color:var(--fg); font:17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; margin:0; padding:48px max(20px, env(safe-area-inset-left)); }
+  main { max-width:640px; margin:0 auto; }
+  h1 { font-size:44px; font-stretch:condensed; margin:0 0 4px; letter-spacing:-0.01em; }
+  h2 { font-size:20px; margin:40px 0 8px; }
+  p, li { color:var(--fg); }
+  .sub { color:var(--muted); margin:0 0 32px; }
+  a { color:var(--ember); }
+  footer { color:var(--muted); font-size:14px; margin-top:48px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mote</h1>
+  <p class="sub">A remote for the TVs in your home.</p>
+
+  <h2 id="privacy">Privacy policy</h2>
+  <p>Mote does not collect, store or share personal data.</p>
+  <ul>
+    <li>Mote talks only to TVs and streaming devices on your local Wi-Fi network, to find them and send the buttons you press.</li>
+    <li>Pairing details (the codes and keys your TV issues) are stored in your iPhone's Keychain and never leave your devices.</li>
+    <li>Mote has no account, no analytics, no advertising and no tracking. It contains no third-party SDKs.</li>
+    <li>Purchases of Mote Pro are handled by Apple. Mote only learns whether Pro is active on your Apple Account.</li>
+    <li>The Apple Watch app sends button presses to your iPhone over Apple's WatchConnectivity; nothing goes to any server.</li>
+  </ul>
+  <p>Effective 25 October 2026. If this policy changes, the new version will be posted here.</p>
+
+  <h2 id="support">Support</h2>
+  <p><strong>My TV isn't found.</strong> Make sure the TV is on and on the same Wi-Fi network as your iPhone, and that Mote is allowed under Settings › Privacy &amp; Security › Local Network.</p>
+  <p><strong>Roku.</strong> On the Roku: Settings › System › Advanced system settings › Control by mobile apps › Network access: Enabled.</p>
+  <p><strong>Samsung.</strong> Choose Allow when the TV asks. If you chose Deny, remove Mote under Settings › General › External Device Manager › Device Connection Manager › Device List.</p>
+  <p><strong>LG.</strong> Choose Accept on the TV. To turn the TV on from Mote, enable Settings › General › Devices › TV Management › Turn on via Wi-Fi.</p>
+  <p><strong>Google TV, Fire TV, Vizio.</strong> Type the code the TV shows.</p>
+  <p><strong>Contact.</strong> <a href="mailto:hello@kataan.io">hello@kataan.io</a></p>
+
+  <footer>© 2026 Javed Hussein. Mote is not affiliated with Samsung, LG, Roku, Amazon, Google, Sony, TCL, Philips, Hisense, Anker/Nebula or Vizio.</footer>
+</main>
+</body>
+</html>
